@@ -1,0 +1,23 @@
+{
+    "name": "emulgeator/enum",
+    "description": "A very simple library allowing you to define enums in PHP",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "php": ">=7",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Emul\\Enum\\": "src"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Emul\\Enum\\Test\\": "test"
+        }
+    }
+}
