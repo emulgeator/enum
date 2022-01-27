@@ -26,6 +26,7 @@ abstract class EnumAbstract implements JsonSerializable
         return (string)$this === $string;
     }
 
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->value;
